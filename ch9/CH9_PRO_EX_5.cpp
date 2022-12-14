@@ -17,7 +17,7 @@ public:
 
     Box(double l=2.0, double w=2.0, double h=2.0) {
         length = l;
-        width = 2;
+        width = w;
         height = h;
         count++;
     }
