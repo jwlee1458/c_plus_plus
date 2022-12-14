@@ -17,14 +17,6 @@ public:
     Employee(string n, int s) {
         name = n;
         salary = s;
-    }public:
-    Employee() {
-        name = "";
-        salary = 0;
-    }
-    Employee(string n, int s) {
-        name = n;
-        salary = s;
     }
     string getName() {
         return name;
